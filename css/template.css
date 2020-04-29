@@ -1,0 +1,73 @@
+
+html, body {
+  margin:0;border:0;padding:0;
+  font-family:'Proxima';
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size:60px;}
+h3 {font-size:50px;}
+
+.accent {
+    font-family: 'Proxima Bold';
+    line-height: 50px;
+    color: #60A9F0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tm-border {
+	border: 5px solid #fff;
+	box-shadow: 2px 2px #000;
+}
+
+.shadow {
+	text-shadow: 1px 1px #000;
+}
+
+.tm-title {
+	color: #03cafc;
+}
+
+.white {
+  color: #fff;
+}
+
+.about {
+  padding: 40px;
+  min-height: 330px;
+}
+
+@font-face {
+    font-family: 'Proxima';
+    src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+header h2 {
+  padding-top: 40px;
+}
+header hr {
+  border-color: #3366CC;
+  width: 100px;
+}

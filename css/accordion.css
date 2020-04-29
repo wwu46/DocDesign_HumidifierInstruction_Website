@@ -1,0 +1,33 @@
+.accordion {
+  background-color: #007eff;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 40px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #002cff;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#icon {
+    font-size:50px;
+}
+
+#icon img.normal{
+    width: 10%;
+    height: 10%;
+}
